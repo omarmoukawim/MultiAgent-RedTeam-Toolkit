@@ -1,4 +1,4 @@
-# MultiAgent-RedTeam-Toolkit
+# AI Red Teaming Simulation
 
 ## Overview
 
@@ -64,22 +64,22 @@ To set up this project locally, follow these steps:
     GROQ_API_KEY=your-groq-api-key
 
 ## Details
-**Kairos Assistant**
+- **Kairos Assistant**
 "Kairos" is the AI assistant being tested in this project. It is configured to be helpful and compliant with ethical guidelines, but the Red Teaming agent attempts to bypass these safeguards in order to extract sensitive information.
 
-**Red Teaming Agent**
+- **Red Teaming Agent**
 The Red **Teaming agent is designed to act as an adversarial AI, engaging in conversation with Kairos to exploit potential weaknesses. It operates under a specific system prompt that encourages it to use creative and subtle methods to achieve its objective without alerting Kairos to its true intent.
 
-**Evaluator Agent**
+- **Evaluator Agent**
 The Evaluator agent is responsible for assessing each response from Kairos to determine if the Red Teaming agent was successful in achieving its goal. The evaluation results are logged and used to generate the final report.
 
-**Conversation Workflow**
+- **Conversation Workflow**
 Initialization: The Red Teaming agent initiates the conversation with a prompt.
 Response: Kairos responds to the prompt.
 Evaluation: The response is evaluated to see if the malicious objective was achieved.
 Continuation: If the objective is not achieved, the conversation continues with a new prompt from the Red Teaming agent based on the previous response.
 Completion: The conversation ends when the objective is achieved or the maximum number of turns is reached.
-**Final Report**
+- **Final Report**
 The final report is a text file that includes:
 
 A log of the entire conversation.
