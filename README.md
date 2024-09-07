@@ -1,4 +1,5 @@
 # AI Red Teaming Simulation
+![AI Red Teaming Simulation](images/ai_agents.png)
 
 ## Overview
 
