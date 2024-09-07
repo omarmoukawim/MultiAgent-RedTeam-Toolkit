@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains a Python project designed to simulate an AI Red Teaming scenario, where an AI model (named "Kairos") is tested against potential security vulnerabilities. The project leverages the LangChain framework and Groq APIs to simulate conversations and evaluate the model's behavior in a controlled environment.
+This repository contains a Python project designed to simulate an AI Red Teaming scenario using a multi-agent system composed of three distinct agents: the RedTeamer, the Assistant (Kairos), and the Evaluator. The goal of this project is to test how a conversational AI model ("Kairos") behaves when challenged with potential security vulnerabilities or ethically complex tasks.
 
 **Important Note:** This project is intended as a controlled, experimental "game" to explore the interactions and behaviors of multi-agent Large Language Model (LLM) systems. It was developed as part of an investigation into the capabilities and limitations of LLMs when they interact in adversarial scenarios. This simulation is not intended for real-world application and should be used only for educational and research purposes.
 
