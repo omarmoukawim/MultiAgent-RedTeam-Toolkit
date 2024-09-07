@@ -23,19 +23,20 @@ This repository contains a Python project designed to simulate an AI Red Teaming
 
 ## Introduction
 
-This project simulates a Red Teaming exercise where a language model named "Kairos" is tested for vulnerabilities. The primary objective is to simulate a scenario where a Red Teaming agent attempts to extract sensitive information or achieve a specific malicious goal through conversation with the AI model.
+This project simulates a Red Teaming exercise where a language model named "Kairos" is tested for vulnerabilities. The core objective is to simulate a scenario where a Red Teaming agent attempts to extract sensitive information or achieve a specific malicious goal through conversations with the AI model.
 
-**However, this project should be seen as a "game" or experimental setup designed to push the boundaries of what multi-agent LLM systems can do in a controlled, safe environment.** The project aims to explore the behavior, limitations, and capabilities of these systems when placed in adversarial roles. It is important to note that this simulation is purely for research and educational purposes, and not intended for any real-world application or malicious use.
+This project is a multi-agent system that emphasizes how different AI agents—each with its own purpose and model—interact in adversarial setups. These agents are designed to test the boundaries of LLMs in terms of behavior, security, and compliance with ethical standards. 
+
 
 ## Architecture
 
 The project is built around the following components:
 
-1. **Kairos Assistant**: The AI model being tested for vulnerabilities.
-2. **Red Teaming Agent**: An AI agent tasked with attempting to extract sensitive information from Kairos.
-3. **Evaluator Agent**: An AI agent that evaluates whether the Red Teaming agent successfully achieved its malicious objective.
+1. **Kairos Assistant**: This agent is based on Gemma-7B-IT, serving as the AI model that is being tested for vulnerabilities. Its purpose is to respond to user prompts while adhering to ethical standards.
+2. **Red Teaming Agent**: Powered by Llama-3.1-70B-Versatile, the RedTeamer agent acts as an adversarial AI tasked with attempting to extract sensitive information or induce malicious behaviors in Kairos.
+3. **Evaluator Agent**: Also built on Llama-3.1-70B-Versatile, the Evaluator agent is responsible for assessing whether the RedTeamer successfully exploited the Kairos Assistant in each conversation.
 
-These components interact in a looped conversation until either the objective is met or a predefined number of turns is reached.
+These agents work together in a looped conversation until either the malicious objective is met, or a predefined number of conversation turns is reached. The Evaluator agent continuously reviews the exchanges to determine if the RedTeamer’s goal has been accomplished.
 
 ## Installation
 
