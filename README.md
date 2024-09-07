@@ -12,6 +12,7 @@ This repository contains a Python project designed to simulate an AI Red Teaming
 - [Architecture](#architecture)
 - [Installation](#installation)
 - [Details](#details)
+- [Future Work](#future-work)
 - [Contributing](#contributing)
 
 
@@ -79,5 +80,32 @@ The final report is a text file that includes:
    - A log of the entire conversation.
    - The evaluation results for each turn.
    - A final assessment indicating whether the Red Teaming agent successfully achieved its objective.
+ 
+## Future Work
+
+There are several future improvements I'm planning to eork on:
+
+1. **Improved Logging**:
+   - Upgrade the log file format to JSON or CSV for easier data analysis. Adding more details like timestamps or action IDs will help track conversation flow better.
+
+2. **Enhanced Reporting**:
+   - Develop more detailed and interactive reports. Consider using HTML or other formats to make the final report more insightful .
+
+3. **Smarter Red Teaming**:
+   - Make the Red Teaming agent more adaptive. Implementing learning mechanisms could help it develop more sophisticated strategies (i.e. restarting the conversation if needed).
+
+4. **Broaden Testing Scenarios**:
+   - Explore new test cases.
+
+5. **Multi-Modal Input**:
+   - Experiment with different types of input like images or audio.
+
+6. **Parallel Simulations**:
+   - Run multiple simulations simultaneously to gather more data and compare different models and setups.
+
+7. **Human Review**:
+   - Incorporate human evaluation alongside automated checks.
+
+
 ## Contributing
 Contributions to this project are welcome. If you have suggestions for improvements or find any issues, please feel free to open an issue or submit a pull request.
