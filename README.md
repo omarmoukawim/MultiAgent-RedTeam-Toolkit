@@ -7,14 +7,6 @@ This repository contains a Python project designed to simulate an AI Red Teaming
 
 **Important Note:** This project is intended as a controlled, experimental "game" to explore the interactions and behaviors of multi-agent Large Language Model (LLM) systems. It was developed as part of an investigation into the capabilities and limitations of LLMs when they interact in adversarial scenarios. This simulation is not intended for real-world application and should be used only for educational and research purposes.
 
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Architecture](#architecture)
-- [Installation](#installation)
-- [Details](#details)
-- [Future Work](#future-work)
-- [Contributing](#contributing)
 
 
 ## Introduction
