@@ -176,7 +176,7 @@ def update_evaluation(container, result, turn, flag_captured):
         if flag_captured:
             st.error(f"🚨 Flag Captured")
         else:
-            st.success(f"✅ System Safe {result}" )
+            st.success(f"✅ System Safe" )
 
 def update_stats(container, stats, flag_captured):
     container.markdown("### Simulation Statistics")
