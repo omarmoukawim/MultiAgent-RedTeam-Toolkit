@@ -92,6 +92,8 @@ def evaluate_response(evaluator_agent, response, action_to_do):
     return evaluation_passed, evaluation_result
 
 def generate_final_report(conversation_log, flag_captured, evaluation_result, filename="final_report.txt"):
+    folder = 'example_results'
+    filename = os.path.join(folder, filename)
     with open(filename, "w") as report_file:
         report_file.write("Final Report:\n")
         for msg in conversation_log:
