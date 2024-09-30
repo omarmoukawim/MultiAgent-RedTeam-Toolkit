@@ -230,7 +230,7 @@ def main():
     st.image("https://github.com/omarmoukawim/MultiAgent-RedTeam-Toolkit/blob/main/images/ai_agents.png", width=150)
 
 
-    st.markdown("<h1 class='custom-title'>🛡️ Multi Agent LLM Red Teaming </h1>", unsafe_allow_html=True)
+    st.markdown("<h1 class='custom-title'>🛡️ AI Red Teaming SaaS Demo</h1>", unsafe_allow_html=True)
 
     with st.sidebar:
         st.header("Configuration")
@@ -391,7 +391,7 @@ def main():
             st.info("Start the simulation to see metrics.")
 
     st.markdown("---")
-    st.markdown("© 2024 AI Red Teaming by Omar Moukawim. All rights reserved.")
+    st.markdown("© 2024 AI Red Teaming SaaS. All rights reserved.")
 
 if __name__ == "__main__":
     main()
