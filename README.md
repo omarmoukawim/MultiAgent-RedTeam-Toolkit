@@ -2,6 +2,7 @@
 ![AI Red Teaming Simulation](images/ai_agents.png)
 
 ## Overview
+The app is hosted on : https://omarmoukawim-multiagent-redteam-t-ai-red-team-simulation-ouspyv.streamlit.app/
 
 This repository contains a Python project designed to simulate an AI Red Teaming scenario using a multi-agent system composed of three distinct agents: the RedTeamer, the Assistant (Kairos), and the Evaluator. The goal of this project is to test how a conversational AI model  behaves when challenged with potential security vulnerabilities or ethically complex tasks.
 
